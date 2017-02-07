@@ -5,7 +5,15 @@ html, body{
 }
 
 #editor-container {
-	width: 1200px;
+	width: 8.27in; /* a4 */
+/*	width: 1200px; 835px */
+	width: 835px;
 	height: 100%;
 	margin: 0 auto;
+}
+
+#openfileinput {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
